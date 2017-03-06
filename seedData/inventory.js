@@ -25,14 +25,14 @@ export let inventory = [
     "price": "12.95",
     "mfg": "Blue Moon Tea",
     "type": "BagOfTea",
-    "blend": "Green Tea"
+    "leaf": "Green Tea"
   },
   {
     "sku": "0005",
     "price": "12.95",
     "mfg": "Blue Moon Tea",
     "type": "BagOfTea",
-    "blend": "Peppermint Tea"
+    "leaf": "Peppermint Tea"
   },
   {
     "sku": "0006",
