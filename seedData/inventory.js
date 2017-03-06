@@ -39,6 +39,6 @@ export let inventory = [
     "price": "12.95",
     "mfg": "Coffee Dudes",
     "type": "FrenchPress",
-    "material": "Peppermint Tea"
+    "material": "glass"
   },
 ]
