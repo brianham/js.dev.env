@@ -6,6 +6,7 @@
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check web-server lint-watch test-watch",
     "web-server": "babel-node buildScripts/webServer.js",
+    "socket-server": "node buildScripts/socketServer.js",
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint-watch": "npm run lint -- --watch",
     "security-check": "nsp check",
@@ -17,6 +18,8 @@
   "author": "Brian Hampson",
   "license": "MIT",
   "dependencies": {
+    "http": "0.0.0",
+    "socket.io": "^1.7.3",
     "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
